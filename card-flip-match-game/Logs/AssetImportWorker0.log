@@ -1,0 +1,778 @@
+Unity Editor version:    2021.3.45f2 (88f88f591b2e)
+Branch:                  2021.3/respin/2021.3.45f2-0da89fac8e
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.2 (Build 24G325)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/reenagupta/Desktop/CardFlipMatchGame/card-flip-match-game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57267
+Successfully changed project path to: /Users/reenagupta/Desktop/CardFlipMatchGame/card-flip-match-game
+/Users/reenagupta/Desktop/CardFlipMatchGame/card-flip-match-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8681382400] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1125834905 [EditorId] 1125834905 [Version] 1048832 [Id] OSXEditor(0,Reenas-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8681382400] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1125834905 [EditorId] 1125834905 [Version] 1048832 [Id] OSXEditor(0,Reenas-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 70.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f2 (88f88f591b2e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/reenagupta/Desktop/CardFlipMatchGame/card-flip-match-game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M4 (high power)
+Metal devices available: 1
+0: Apple M4 (high power)
+Using device Apple M4 (high power)
+Initializing Metal device caps: Apple M4
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f2/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.45f2/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002244 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 59 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 21.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (412ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (302ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (54ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (138ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (22ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (36ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (501ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.45f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (40.1 KB). Loaded Objects now: 3541.
+Memory consumption went from 101.1 MB to 101.1 MB.
+Total: 1.858792 ms (FindLiveObjects: 0.093458 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.689166 ms  DeleteObjects: 0.045542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 133686.721740 seconds.
+  path: 
+  artifactKey: Guid(291ef8cdca75d41e4937c8addc75d8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(291ef8cdca75d41e4937c8addc75d8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000010 seconds  code(3) message(Unknown asset with GUID '291ef8cdca75d41e4937c8addc75d8f0')
+  ERROR: Unknown asset with GUID '291ef8cdca75d41e4937c8addc75d8f0'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.679299 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242eb3f8ccddee1d20804eaa3e2360db') in 0.006956 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.800010 seconds.
+  path: 
+  artifactKey: Guid(1fd5ae75f39a94cfb849b7136208a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(1fd5ae75f39a94cfb849b7136208a636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000009 seconds  code(3) message(Unknown asset with GUID '1fd5ae75f39a94cfb849b7136208a636')
+  ERROR: Unknown asset with GUID '1fd5ae75f39a94cfb849b7136208a636'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.562987 seconds.
+  path: 
+  artifactKey: Guid(3d89c81d056684c649f3a12a6a49ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(3d89c81d056684c649f3a12a6a49ca4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000009 seconds  code(3) message(Unknown asset with GUID '3d89c81d056684c649f3a12a6a49ca4b')
+  ERROR: Unknown asset with GUID '3d89c81d056684c649f3a12a6a49ca4b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.604500 seconds.
+  path: 
+  artifactKey: Guid(bcabda10af2864c588f34919826d9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(bcabda10af2864c588f34919826d9a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000008 seconds  code(3) message(Unknown asset with GUID 'bcabda10af2864c588f34919826d9a79')
+  ERROR: Unknown asset with GUID 'bcabda10af2864c588f34919826d9a79'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.326801 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(53559d5acf7eb48bb8b6c69f728b2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(53559d5acf7eb48bb8b6c69f728b2901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000184 seconds  code(4) message(Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2025-11-18T06:02:34Z' while content on disk has modification time of '2025-11-18T06:26:30Z')
+  ERROR: Build asset version error: assets/scenes.meta in SourceAssetDB has modification time of '2025-11-18T06:02:34Z' while content on disk has modification time of '2025-11-18T06:26:30Z'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.265027 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000240 seconds  code(4) message(Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-05-26T18:47:49Z' while content on disk has modification time of '2025-11-18T06:26:30Z')
+  ERROR: Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-05-26T18:47:49Z' while content on disk has modification time of '2025-11-18T06:26:30Z'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.332834 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.119076 seconds  code(4) message(Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-05-26T18:47:49Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-05-26T18:47:49Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5171.066888 seconds.
+  path: 
+  artifactKey: Guid(7c52bcf20f71b4141b4e71a0a5cddca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(7c52bcf20f71b4141b4e71a0a5cddca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '7c52bcf20f71b4141b4e71a0a5cddca3')
+  ERROR: Unknown asset with GUID '7c52bcf20f71b4141b4e71a0a5cddca3'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.815045 seconds.
+  path: 
+  artifactKey: Guid(397872ccf204241099928fc497ed0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(397872ccf204241099928fc497ed0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000007 seconds  code(3) message(Unknown asset with GUID '397872ccf204241099928fc497ed0567')
+  ERROR: Unknown asset with GUID '397872ccf204241099928fc497ed0567'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.408251 seconds.
+  path: 
+  artifactKey: Guid(7c52bcf20f71b4141b4e71a0a5cddca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(7c52bcf20f71b4141b4e71a0a5cddca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '7c52bcf20f71b4141b4e71a0a5cddca3')
+  ERROR: Unknown asset with GUID '7c52bcf20f71b4141b4e71a0a5cddca3'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.007543 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000008 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: 
+  artifactKey: Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac')
+  ERROR: Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: 
+  artifactKey: Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000006 seconds  code(3) message(Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7')
+  ERROR: Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: 
+  artifactKey: Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853')
+  ERROR: Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: 
+  artifactKey: Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f')
+  ERROR: Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: 
+  artifactKey: Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID '370b230b9682d4688a60824fc92253d8')
+  ERROR: Unknown asset with GUID '370b230b9682d4688a60824fc92253d8'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: 
+  artifactKey: Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae')
+  ERROR: Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: 
+  artifactKey: Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896')
+  ERROR: Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.839016 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000006 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001524 seconds.
+  path: 
+  artifactKey: Guid(21e1d723693714419b9655550dcc52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(21e1d723693714419b9655550dcc52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID '21e1d723693714419b9655550dcc52db')
+  ERROR: Unknown asset with GUID '21e1d723693714419b9655550dcc52db'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: 
+  artifactKey: Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7')
+  ERROR: Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: 
+  artifactKey: Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000003 seconds  code(3) message(Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f')
+  ERROR: Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: 
+  artifactKey: Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945')
+  ERROR: Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001702 seconds.
+  path: 
+  artifactKey: Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID '370b230b9682d4688a60824fc92253d8')
+  ERROR: Unknown asset with GUID '370b230b9682d4688a60824fc92253d8'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: 
+  artifactKey: Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae')
+  ERROR: Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 136.514449 seconds.
+  path: 
+  artifactKey: Guid(7679543a92f0243218524473593d0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(7679543a92f0243218524473593d0ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000026 seconds  code(3) message(Unknown asset with GUID '7679543a92f0243218524473593d0ba1')
+  ERROR: Unknown asset with GUID '7679543a92f0243218524473593d0ba1'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 510.834968 seconds.
+  path: 
+  artifactKey: Guid(397872ccf204241099928fc497ed0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(397872ccf204241099928fc497ed0567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000033 seconds  code(3) message(Unknown asset with GUID '397872ccf204241099928fc497ed0567')
+  ERROR: Unknown asset with GUID '397872ccf204241099928fc497ed0567'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.931996 seconds.
+  path: 
+  artifactKey: Guid(3e59e29b745a8408ea2defa094213469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(3e59e29b745a8408ea2defa094213469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000008 seconds  code(3) message(Unknown asset with GUID '3e59e29b745a8408ea2defa094213469')
+  ERROR: Unknown asset with GUID '3e59e29b745a8408ea2defa094213469'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: 
+  artifactKey: Guid(4b12b447ad98b43cf94564bac35f54e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(4b12b447ad98b43cf94564bac35f54e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID '4b12b447ad98b43cf94564bac35f54e3')
+  ERROR: Unknown asset with GUID '4b12b447ad98b43cf94564bac35f54e3'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.702832 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000013 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: 
+  artifactKey: Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000013 seconds  code(3) message(Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7')
+  ERROR: Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: 
+  artifactKey: Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000012 seconds  code(3) message(Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853')
+  ERROR: Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: 
+  artifactKey: Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000009 seconds  code(3) message(Unknown asset with GUID '370b230b9682d4688a60824fc92253d8')
+  ERROR: Unknown asset with GUID '370b230b9682d4688a60824fc92253d8'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: 
+  artifactKey: Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000006 seconds  code(3) message(Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945')
+  ERROR: Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.192038 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000009 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: 
+  artifactKey: Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000006 seconds  code(3) message(Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac')
+  ERROR: Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: 
+  artifactKey: Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000008 seconds  code(3) message(Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853')
+  ERROR: Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: 
+  artifactKey: Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000006 seconds  code(3) message(Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae')
+  ERROR: Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: 
+  artifactKey: Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896')
+  ERROR: Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.029975 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000007 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: 
+  artifactKey: Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(baad229234f58490e98080a5c3f14dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac')
+  ERROR: Unknown asset with GUID 'baad229234f58490e98080a5c3f14dac'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: 
+  artifactKey: Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(bbc7ef4288587434cb20355c566f9853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853')
+  ERROR: Unknown asset with GUID 'bbc7ef4288587434cb20355c566f9853'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: 
+  artifactKey: Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(370b230b9682d4688a60824fc92253d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000004 seconds  code(3) message(Unknown asset with GUID '370b230b9682d4688a60824fc92253d8')
+  ERROR: Unknown asset with GUID '370b230b9682d4688a60824fc92253d8'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: 
+  artifactKey: Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(8f26fd9a3828b46879dd02b0f4edd945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000012 seconds  code(3) message(Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945')
+  ERROR: Unknown asset with GUID '8f26fd9a3828b46879dd02b0f4edd945'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.095941 seconds.
+  path: 
+  artifactKey: Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(20599769467c2437ba896a598d7be16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000011 seconds  code(3) message(Unknown asset with GUID '20599769467c2437ba896a598d7be16b')
+  ERROR: Unknown asset with GUID '20599769467c2437ba896a598d7be16b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: 
+  artifactKey: Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(5e8c586f4b2274341b119ff840a003c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7')
+  ERROR: Unknown asset with GUID '5e8c586f4b2274341b119ff840a003c7'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: 
+  artifactKey: Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(9f6deaeaf953244fcbf2eaab0bb3813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f')
+  ERROR: Unknown asset with GUID '9f6deaeaf953244fcbf2eaab0bb3813f'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: 
+  artifactKey: Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(a8dc24bd8c3cc4e7eaa5f14f49a58eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000005 seconds  code(3) message(Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae')
+  ERROR: Unknown asset with GUID 'a8dc24bd8c3cc4e7eaa5f14f49a58eae'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: 
+  artifactKey: Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(89d0d7629b93545dc9ef7359dd01b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896')
+  ERROR: Unknown asset with GUID '89d0d7629b93545dc9ef7359dd01b896'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 154.159386 seconds.
+  path: 
+  artifactKey: Guid(0a118d6e4c5c4410d96ef778bfd39b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(0a118d6e4c5c4410d96ef778bfd39b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000010 seconds  code(3) message(Unknown asset with GUID '0a118d6e4c5c4410d96ef778bfd39b7b')
+  ERROR: Unknown asset with GUID '0a118d6e4c5c4410d96ef778bfd39b7b'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.421263 seconds.
+  path: 
+  artifactKey: Guid(114306537bd49440e95ebf035f754a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing  using Guid(114306537bd49440e95ebf035f754a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000008 seconds  code(3) message(Unknown asset with GUID '114306537bd49440e95ebf035f754a3a')
+  ERROR: Unknown asset with GUID '114306537bd49440e95ebf035f754a3a'
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000789 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x3150c7000 may have been prematurely finalized
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (704ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (21.9 KB). Loaded Objects now: 3544.
+Memory consumption went from 105.1 MB to 105.1 MB.
+Total: 1.676875 ms (FindLiveObjects: 0.090000 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.543250 ms  DeleteObjects: 0.012291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000772 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x17adef000 may have been prematurely finalized
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (760ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (21.9 KB). Loaded Objects now: 3547.
+Memory consumption went from 105.1 MB to 105.1 MB.
+Total: 1.594625 ms (FindLiveObjects: 0.089708 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.457333 ms  DeleteObjects: 0.013167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
