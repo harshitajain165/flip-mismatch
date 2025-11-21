@@ -347,7 +347,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Gameplay/IGameGenerator.cs"
 "Assets/Scripts/Manager/Card.cs"
+"Assets/Scripts/Manager/RandomGameGenerator.cs"
 -langversion:9.0
 /deterministic
 /optimize+
