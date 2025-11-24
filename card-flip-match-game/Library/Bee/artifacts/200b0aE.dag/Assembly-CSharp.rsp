@@ -351,7 +351,10 @@
 "Assets/Scripts/Gameplay/IGridDistributor.cs"
 "Assets/Scripts/Manager/Card.cs"
 "Assets/Scripts/Manager/GameController.cs"
+"Assets/Scripts/Manager/GamePlayManager.cs"
+"Assets/Scripts/Manager/GridPrefabDistributor.cs"
 "Assets/Scripts/Manager/RandomGameGenerator.cs"
+"Assets/Scripts/Manager/ScoreManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
