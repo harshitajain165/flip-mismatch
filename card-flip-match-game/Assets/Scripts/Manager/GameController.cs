@@ -15,9 +15,9 @@ namespace CardMatching.GamePlay
         public List<Sprite> sprites; // pool of sprites to assign, index is spriteId
 
         [Header("UI")]
-        public Text scoreText;
-        public Text turnText;
-        public Text matchText;
+        public TMPro.TextMeshProUGUI scoreText;
+        public TMPro.TextMeshProUGUI turnText;
+        public TMPro.TextMeshProUGUI matchText;
 
         [Header("Settings")]
         public int rows = 3;
