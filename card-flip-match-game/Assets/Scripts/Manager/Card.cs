@@ -16,7 +16,7 @@ namespace CardMatching.GamePlay
         [SerializeField] private Image backImage;
 
         [Header("Flip settings")]
-        [SerializeField] private float flipDuration = 0.22f; // seconds
+        [SerializeField] private float flipDuration = 0.2f; // seconds
 
         // events
         public event Action<Card> OnFlipped; // invoked when flip to face-up completes

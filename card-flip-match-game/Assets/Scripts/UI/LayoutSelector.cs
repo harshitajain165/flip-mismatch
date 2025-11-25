@@ -7,7 +7,6 @@ using CardMatching.GamePlay;
 namespace CardMatching.GamePlay
 {
     // Simple UI helper to allow players to choose a board layout at runtime.
-    // Attach to a GameObject and assign a UnityEngine.UI.Dropdown in the inspector.
     public class LayoutSelector : MonoBehaviour
     {
         [Tooltip("Dropdown UI used to select predefined layouts (TextMeshPro TMP_Dropdown)")]

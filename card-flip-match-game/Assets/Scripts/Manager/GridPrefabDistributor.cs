@@ -4,7 +4,6 @@ using UnityEngine;
 namespace CardMatching.GamePlay
 {
     // Simple distributor that arranges Card prefabs in a rows x cols grid
-    // Positions each Card's RectTransform inside the provided board parent.
     public class GridPrefabDistributor : IGridDistributor
     {
         private RectTransform parent;

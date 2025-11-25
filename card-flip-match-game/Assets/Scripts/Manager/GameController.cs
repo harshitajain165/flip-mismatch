@@ -198,7 +198,6 @@ namespace CardMatching.GamePlay
 
         private void HandleCardMatched(Card c)
         {
-            // additional visual logic for matched cards (e.g., disable button)
             var btn = c.GetComponent<UnityEngine.UI.Button>();
             if (btn) btn.interactable = false;
 
@@ -252,18 +251,19 @@ namespace CardMatching.GamePlay
             string path = Path.Combine(Application.persistentDataPath, "savegame.json");
             if (!File.Exists(path))
             {
-                Debug.LogWarning("No save file.");
+                Debug.LogWarning("No save file found.");
                 return;
             }
 
             string json = File.ReadAllText(path);
             var state = JsonUtility.FromJson<SaveData>(json);
 
-            // Rebuild board with exact sprite order
+            // Clear the board first
+            ClearBoard();
             rows = state.rows;
             cols = state.cols;
-            ClearBoard();
 
+            // Rebuild board using EXACT saved sprite order (not regenerated)
             for (int i = 0; i < state.cardSpriteIds.Count; i++)
             {
                 GameObject go = Instantiate(cardPrefab, boardParent);
@@ -271,6 +271,7 @@ namespace CardMatching.GamePlay
                 int spriteId = state.cardSpriteIds[i];
                 card.Initialize(spriteId, sprites[spriteId]);
 
+                // Apply saved matched state
                 if (state.matchedFlags[i])
                 {
                     card.RevealInstant();
@@ -278,26 +279,23 @@ namespace CardMatching.GamePlay
                     var btn = card.GetComponent<UnityEngine.UI.Button>();
                     if (btn) btn.interactable = false;
                 }
-                else
-                {
-                    card.ShowBackInstant();
-                }
 
                 card.OnFlipped += HandleCardFlipped;
                 card.OnMatched += HandleCardMatched;
                 spawnedCards.Add(card);
             }
 
+            // Distribute cards in the grid
             distributor = new GridPrefabDistributor(boardParent, rows, cols, spawnedCards);
             distributor.DistributePrefabs();
 
-            // restore score
+            // Restore score/turn/match counters
             scoreManager.Reset();
-            // we don't have combo info; restore basic numbers
             for (int i = 0; i < state.match; i++) scoreManager.UpdateMatchCount();
             for (int i = 0; i < state.turn; i++) scoreManager.UpdateTurnCount();
             UpdateUI();
-            Debug.Log("Loaded state");
+            
+            Debug.Log("Game state loaded successfully.");
         }
 
         [System.Serializable]
