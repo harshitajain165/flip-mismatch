@@ -27,8 +27,15 @@ namespace CardMatching.GamePlay
             if (dropdown == null) return;
 
             dropdown.ClearOptions();
-            dropdown.AddOptions(presets);
+            // Add a non-selectable placeholder at index 0 so the dropdown displays a label like "Layout"
+            var options = new List<string>();
+            options.Add("LAYOUT");
+            options.AddRange(presets);
+            dropdown.AddOptions(options);
             dropdown.onValueChanged.AddListener(OnSelectionChanged);
+            // ensure placeholder is shown initially
+            dropdown.value = 0;
+            dropdown.RefreshShownValue();
         }
 
         private void OnDestroy()
@@ -39,8 +46,11 @@ namespace CardMatching.GamePlay
 
         private void OnSelectionChanged(int idx)
         {
-            if (idx < 0 || idx >= presets.Count) return;
-            var s = presets[idx];
+            // index 0 is the placeholder - ignore
+            if (idx <= 0) return;
+            int presetIndex = idx - 1; // adjust because presets start at index 1 in the dropdown
+            if (presetIndex < 0 || presetIndex >= presets.Count) return;
+            var s = presets[presetIndex];
             var parts = s.Split('x');
             if (parts.Length != 2) return;
 
