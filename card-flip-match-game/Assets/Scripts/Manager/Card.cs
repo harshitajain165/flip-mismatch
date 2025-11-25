@@ -139,7 +139,7 @@ namespace CardMatching.GamePlay
             backImage.gameObject.SetActive(false);
         }
 
-        private void ShowBackInstant()
+        public void ShowBackInstant()
         {
             frontImage.gameObject.SetActive(false);
             backImage.gameObject.SetActive(true);

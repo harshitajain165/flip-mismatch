@@ -355,6 +355,7 @@
 "Assets/Scripts/Manager/GridPrefabDistributor.cs"
 "Assets/Scripts/Manager/RandomGameGenerator.cs"
 "Assets/Scripts/Manager/ScoreManager.cs"
+"Assets/Scripts/UI/LayoutSelector.cs"
 -langversion:9.0
 /deterministic
 /optimize+

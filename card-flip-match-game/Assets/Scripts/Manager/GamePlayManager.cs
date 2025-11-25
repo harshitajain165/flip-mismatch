@@ -32,6 +32,12 @@ namespace CardMatching.GamePlay
             OnGameStart?.Invoke(rows, cols);
         }
 
+        // Restart the current game layout (replay the same rows x cols)
+        public void Replay()
+        {
+            StartGame(rows, cols);
+        }
+
         // returns true if the game is over (and raises OnGameOver once)
         public bool CheckGameOver()
         {

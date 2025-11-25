@@ -83,8 +83,22 @@ namespace CardMatching.GamePlay
 
         private void BuildBoard()
         {
-            int total = rows * cols;
-            var ids = generator.GenerateCardMatchGame(total, sprites.Count);
+            int requestedTotal = rows * cols;
+
+            if (sprites == null || sprites.Count == 0)
+            {
+                Debug.LogError("No sprites assigned in GameController. Assign card face sprites before building the board.");
+                return;
+            }
+
+            var ids = generator.GenerateCardMatchGame(requestedTotal, sprites.Count);
+            int total = ids != null ? ids.Count : 0;
+
+            if (total == 0)
+            {
+                Debug.LogError($"Generator returned no card ids for requested total={requestedTotal}.");
+                return;
+            }
 
             // create card instances
             for (int i = 0; i < total; i++)
@@ -209,6 +223,109 @@ namespace CardMatching.GamePlay
             PlaySfx(gameOverClip);
             // show simple dialog or UI text
             Debug.Log("Game Over!");
+        }
+
+        // Save & Load (simple JSON)
+        [ContextMenu("SaveState")]
+        public void SaveState()
+        {
+            var state = new SaveData
+            {
+                rows = this.rows,
+                cols = this.cols,
+                score = scoreManager.Score,
+                turn = scoreManager.TurnCount,
+                match = scoreManager.MatchCount,
+                cardSpriteIds = spawnedCards.ConvertAll(c => c.SpriteId),
+                matchedFlags = spawnedCards.ConvertAll(c => c.IsMatched)
+            };
+
+            string json = JsonUtility.ToJson(state);
+            string path = Path.Combine(Application.persistentDataPath, "savegame.json");
+            File.WriteAllText(path, json);
+            Debug.Log($"Saved to {path}");
+        }
+
+        [ContextMenu("LoadState")]
+        public void LoadState()
+        {
+            string path = Path.Combine(Application.persistentDataPath, "savegame.json");
+            if (!File.Exists(path))
+            {
+                Debug.LogWarning("No save file.");
+                return;
+            }
+
+            string json = File.ReadAllText(path);
+            var state = JsonUtility.FromJson<SaveData>(json);
+
+            // Rebuild board with exact sprite order
+            rows = state.rows;
+            cols = state.cols;
+            ClearBoard();
+
+            for (int i = 0; i < state.cardSpriteIds.Count; i++)
+            {
+                GameObject go = Instantiate(cardPrefab, boardParent);
+                Card card = go.GetComponent<Card>();
+                int spriteId = state.cardSpriteIds[i];
+                card.Initialize(spriteId, sprites[spriteId]);
+
+                if (state.matchedFlags[i])
+                {
+                    card.RevealInstant();
+                    card.MarkMatched();
+                    var btn = card.GetComponent<UnityEngine.UI.Button>();
+                    if (btn) btn.interactable = false;
+                }
+                else
+                {
+                    card.ShowBackInstant();
+                }
+
+                card.OnFlipped += HandleCardFlipped;
+                card.OnMatched += HandleCardMatched;
+                spawnedCards.Add(card);
+            }
+
+            distributor = new GridPrefabDistributor(boardParent, rows, cols, spawnedCards);
+            distributor.DistributePrefabs();
+
+            // restore score
+            scoreManager.Reset();
+            // we don't have combo info; restore basic numbers
+            for (int i = 0; i < state.match; i++) scoreManager.UpdateMatchCount();
+            for (int i = 0; i < state.turn; i++) scoreManager.UpdateTurnCount();
+            UpdateUI();
+            Debug.Log("Loaded state");
+        }
+
+        [System.Serializable]
+        private class SaveData
+        {
+            public int rows;
+            public int cols;
+            public int score;
+            public int turn;
+            public int match;
+            public List<int> cardSpriteIds;
+            public List<bool> matchedFlags;
+        }
+
+        // UI Hook methods
+        public void OnReplay()
+        {
+            GamePlayManager.GetInstance.Replay();
+        }
+
+        public void OnSaveButton()
+        {
+            SaveState();
+        }
+
+        public void OnLoadButton()
+        {
+            LoadState();
         }
     }
 }
